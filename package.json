@@ -1,0 +1,14 @@
+{
+  "name": "i-arsenic-docs",
+  "version": "0.0.1",
+  "description": "website files for iArsenic",
+  "main": "index.html",
+  "author": "Dillon O'Shea",
+  "license": "ISC",
+  "devDependencies": {
+    "semistandard": "^13.0.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}

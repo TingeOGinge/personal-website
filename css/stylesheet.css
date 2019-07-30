@@ -91,25 +91,31 @@ h3 {
   list-style-position: inside;
 }
 
-#mobileNav > ul li {
+#mobileNav li {
   color: #000;
   margin: 2rem 1rem;
-  border-bottom: thin solid black;
+  border-bottom: thin solid #fff;
 }
 
 #mobileNav > ul {
   list-style-type: none;
 }
 
-#mobileNav > ul li a {
+#mobileNav a {
+  border-radius: 1rem;
   color: #FFF;
   font-size: 1.5rem;
   font-weight: 925;
   padding: 2rem 1rem;
+  width: 100%;
+}
+
+#mobileNav a:active {
+  background-color: #9C9FA1;
 }
 
 #overlay {
-  background-color: #9C9FA1;
+  background-color: #2C4C7A;
   height: 100%;
   left: 0;
   position: fixed;
@@ -167,6 +173,7 @@ h3 {
     font-weight: 800;
     margin: 2rem 1rem;
     padding: 1rem 2.5rem;
+    width: auto;
   }
 
   #desktopNav a:hover {
@@ -175,7 +182,7 @@ h3 {
   }
 
   #desktopNav a:active {
-    background-color: #876C81;
+    background-color: #9C9FA1;
   }
 
   #overlay {

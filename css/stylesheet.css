@@ -55,8 +55,16 @@ h3 {
   display: none;
 }
 
+.externalLinkPic a * {
+  width: auto;
+}
+
+.linkImgFallback {
+  height: 2rem;
+}
+
 .mainSection {
-  border-bottom: thin solid;
+  border-bottom: thin solid #2C4C7A;
   padding: 1rem .75rem;
 }
 
@@ -83,6 +91,11 @@ h3 {
 
 #desktopNav {
   display: none;
+}
+
+#externalLinks {
+  display: flex;
+  justify-content: space-evenly;
 }
 
 #mobileNav {

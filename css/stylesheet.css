@@ -8,6 +8,7 @@
 }
 
 /*-----------------Mobile View-----------------*/
+
 /*-----------------Element Selectors-----------------*/
 
 body {
@@ -122,7 +123,7 @@ h3 {
 
 /*-----------------Desktop View-----------------*/
 
-@media screen and (min-width: 44rem) {
+@media screen and (min-width: 40rem) {
 
 /*-----------------Element Selectors-----------------*/
 
@@ -155,14 +156,26 @@ h3 {
     will-change: transform;
   }
 
-  #desktopNav > ul > li {
+  #desktopNav li {
     display: inline-block;
   }
 
-  #desktopNav > ul > li > a {
+  #desktopNav a {
+    border-radius: 1rem;
+    color: #3E3E5A;
     font-size: 1.25rem;
+    font-weight: 800;
     margin: 2rem 1rem;
     padding: 1rem 2.5rem;
+  }
+
+  #desktopNav a:hover {
+    background-color: #2C4C7A;
+    color: #fff;
+  }
+
+  #desktopNav a:active {
+    background-color: #876C81;
   }
 
   #overlay {

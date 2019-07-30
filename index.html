@@ -20,9 +20,9 @@
   <div id="overlay">
     <nav id="mobileNav">
       <ul>
-        <li><a class="mobileNavA noUnderline" href="#" title="Home">Home</a></li>
-        <li><a class="mobileNavA noUnderline" href="#highlights" title="Highlights">Highlights</a></li>
-        <li><a class="mobileNavA noUnderline" href="#university" title="University">University</a></li>
+        <li><a class="overlayTrigger noUnderline" href="#" title="Home">Home</a></li>
+        <li><a class="overlayTrigger noUnderline" href="#highlights" title="Highlights">Highlights</a></li>
+        <li><a class="overlayTrigger noUnderline" href="#university" title="University">University</a></li>
       </ul>
     </nav>
   </div>
@@ -34,28 +34,52 @@
     <section id="intro" class="mainSection">
       <h3>Introducing: Myself</h3>
       <p class="mainContent">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <p class="mainContent">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
     </section>
 
     <section id="highlights" class="mainSection">
       <h3>Highlights</h3>
+      <p class="mainContent">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
       <p class="mainContent">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
     </section>
 
     <section id="university" class="mainSection">
       <h3>University</h3>
       <p class="mainContent">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <p class="mainContent">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
     </section>
 
+    <section id="externalLinks" class="mainSection">
+      <a href="https://github.com/TingeOGinge">
+        <picture id="github" class="externalLinkPic mainContent">
+          <source
+            media="(min-width: 20rem)"
+            srcset="img/GitHub-Mark/PNG/GitHub-Mark-64px.png">
+          <img
+            class="linkImgFallback"
+            src="img/GitHub-Mark/PNG/GitHub-Mark-32px.png"
+            alt="Github Logo">
+        </picture>
+    </a>
+      <a href="https://linkedin.com/in/dillon-oshea">
+        <picture id="linkedin" class="externalLinkPic mainContent">
+          <img
+            class="linkImgFallback"
+            src="img/LinkedIn-Logos/LI-In-Bug.png"
+            alt="Linkedin Logo">
+        </picture>
+    </a>
+    </section>
 
   </main>
 
   <footer>
     <input type="checkbox" class="hidden">
-      <label for="menu_checkbox" id="hamburgerIcon" class="mobileIcon">
+      <label for="menu_checkbox" id="hamburgerIcon" class="mobileIcon overlayTrigger">
         ☰
       </label>
     <input type="checkbox" class="hidden">
-      <label for="menu_checkbox" id="closeIcon" class="mobileIcon hidden">
+      <label for="menu_checkbox" id="closeIcon" class="mobileIcon overlayTrigger hidden">
         &times;
       </label>
   </footer>

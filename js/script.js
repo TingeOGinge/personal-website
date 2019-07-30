@@ -3,7 +3,6 @@ hamburgerIcon = document.querySelector('#hamburgerIcon');
 mobileMenuLinks = document.querySelectorAll('.mobileNavA');
 mobileMenuOverlay = document.querySelector('#overlay');
 
-
 window.addEventListener('load', init);
 
 function init() {

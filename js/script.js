@@ -54,7 +54,7 @@ function init() {
   }
 }
 
-function scrollToSection(destination, blockStyle) {
+function scrollToSection(destination, blockStyle = 'center') {
   destination.scrollIntoView({ behaviour: 'smooth', block: blockStyle, inline: 'start'});
 }
 

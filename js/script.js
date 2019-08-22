@@ -6,34 +6,34 @@ const navElements = {
     home: {
       button: document.querySelector('#widescreenHome'),
       destination: document.querySelector('#introFPara'),
-      blockStyle: 'center',
+      scrollStyle: 'center',
     },
     highlights: {
       button: document.querySelector('#widescreenHighlights'),
       destination: document.querySelector('#highlightsFPara'),
-      blockStyle: 'center',
+      scrollStyle: 'center',
     },
     university: {
       button: document.querySelector('#widescreenUniversity'),
       destination: document.querySelector('#universityFPara'),
-      blockStyle: 'center',
+      scrollStyle: 'center',
     },
   },
   mobile: {
     home: {
       button: document.querySelector('#mobileHome'),
       destination: document.querySelector('#introHeading'),
-      blockStyle: 'center',
+      scrollStyle: 'center',
     },
     highlights: {
       button: document.querySelector('#mobileHighlights'),
       destination: document.querySelector('#highlightsHeading'),
-      blockStyle: 'start',
+      scrollStyle: 'start',
     },
     university: {
       button: document.querySelector('#mobileUniversity'),
       destination: document.querySelector('#universityHeading'),
-      blockStyle: 'start',
+      scrollStyle: 'start',
     },
   },
 }
@@ -48,14 +48,18 @@ function init() {
   for (const nav of Object.values(navElements)) {
     for (const navElement of Object.values(nav)) {
       navElement.button.addEventListener('click', () => {
-        scrollToSection(navElement.destination, navElement.blockStyle)
+        scrollToSection(navElement.destination, navElement.scrollStyle)
       });
     }
   }
 }
 
 function scrollToSection(destination, blockStyle = 'center') {
-  destination.scrollIntoView({ behaviour: 'smooth', block: blockStyle, inline: 'start'});
+  destination.scrollIntoView({
+    behaviour: 'smooth',
+    block: blockStyle,
+    inline: 'start'
+  });
 }
 
 function toggleOverlay() {

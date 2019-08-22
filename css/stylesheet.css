@@ -22,12 +22,10 @@ body {
 
 footer {
   background: #F3F2F3;
-  border-top-left-radius: 1rem;
-  border-top-right-radius: 1rem;
   position: sticky;
   bottom: 0;
   margin: 0 auto;
-  width: 90%;
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -76,7 +74,7 @@ h3 {
 .mobileIcon {
   color: #000;
   font-size: 2rem;
-    padding: 0 .75rem;
+  padding: 0 1.25rem;
 }
 
 .noUnderline {
@@ -141,6 +139,10 @@ h3 {
 @media screen and (min-width: 42rem) {
 
 /*-----------------Element Selectors-----------------*/
+
+footer {
+  display: none;
+}
 
 /*-----------------Class Selectors-----------------*/
 

@@ -87,6 +87,11 @@ h3 {
 
 /*-----------------ID Selectors-----------------*/
 
+#disclaimer {
+  font-size: 4rem;
+  text-decoration: underline;
+}
+
 #widescreenNav {
   display: none;
 }

@@ -68,7 +68,7 @@ h3 {
 
 .mainContent {
   margin: 0.5rem;
-  padding: 1rem 0 1rem .5rem;
+  padding: .5rem;
 }
 
 .mobileIcon {
@@ -156,11 +156,12 @@ footer {
   }
 
   .mainSection {
-    padding: 2rem 4rem;
+    padding: 1rem 4rem;
   }
 
   .mainContent {
     margin: .5rem;
+    padding: .5rem;
   }
 
   .mobileIcon {
